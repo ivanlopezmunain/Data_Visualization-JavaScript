@@ -1,0 +1,78 @@
+
+/*Ivan Lopez de Munain Quinana */
+
+svg {
+    font-family: "helvetica";
+}
+
+.line {
+  stroke-width: 2;
+  fill: none;
+}
+
+
+.axis path {
+  stroke: black;
+}
+
+h1{ 
+  color: #6c2eb9;
+  font-weight: normal;
+  font-size: 15px;
+  font-family: "helvetica";
+  text-transform: uppercase;
+}
+
+.caja_radiobuttoms{
+  float: left;
+  margin-left: 165px;
+  margin-top: 30px;
+  margin-right: 80px;
+  font-size: 15px;
+  font-family: "helvetica";
+  transform: scale(0.8);
+  border: solid 3px rgb(223, 212, 212);
+  border-radius: 8px;
+}
+
+.caja_radiobuttoms_int{
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.caja_radiobuttoms_int>div{
+
+  position: relative;
+  top: 2px;
+  margin-right: 60px;
+
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 70px;
+  height: 34px;
+  padding: 2px;
+  font: 10px sans-serif;
+  background: #f0f06e;
+  pointer-events: none;
+  border: solid black 1px;
+  border-radius: 5px;
+}
+
+.text {
+  font-size: 12px;
+}
+
+.title-text {
+  font-size: 12px;
+}
+
+.area {
+  fill:rgb(90, 204, 83); 
+}
