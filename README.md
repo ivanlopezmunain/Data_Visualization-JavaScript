@@ -1,3 +1,2 @@
 # Projects-JavaScript
-Examples of programming with Java Script, using D3.js for data visualization.
-Use Mozilla Firefox.
+Ejemplos de programación con Java Script, usando D3.js para visualización de datos. Se requiere usar Mozilla Firefox.
